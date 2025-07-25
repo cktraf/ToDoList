@@ -15,7 +15,7 @@ struct NewToDoView: View {
                 .fontWeight(.bold)
             TextField("Enter the task description...", text: /*@START_MENU_TOKEN@*//*@PLACEHOLDER=Value@*/.constant("")/*@END_MENU_TOKEN@*/)
                 .padding()
-                .background(Color(.systemGroupedBackground))
+                .background(Color("lightGray"))
                 .cornerRadius(15)
                 .padding()
             Toggle(isOn: /*@START_MENU_TOKEN@*//*@PLACEHOLDER=Is On@*/.constant(true)/*@END_MENU_TOKEN@*/) {
